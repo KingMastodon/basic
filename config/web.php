@@ -48,7 +48,7 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-               // 'index.php?r=site%2Findex.php' => '/upload-form/index',
+              '/' => '/upload-form/index',
             ],
         ],
         
