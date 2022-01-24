@@ -39,7 +39,7 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav'],
         'items' => [
             ['label' => 'Список изображений', 'url' => ['/upload-form/index']],
-            ['label' => 'Загрузить изображение', 'url' => ['/upload-form/upload']],
+            ['label' => 'Загрузить изображения', 'url' => ['/upload-form/upload']],
             
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
