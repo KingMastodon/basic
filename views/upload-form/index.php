@@ -18,7 +18,7 @@ use yii\grid\GridView;
             ['class' => 'yii\grid\SerialColumn'],
             [
                 'class' => 'yii\grid\ActionColumn',
-                'header'=>'Действия',                 
+                'header'=>'Исходное изображение',                 
                 'template' => '{imgview}',
                 'buttons'=>[
                     'imgview' => function ($url,$model,$key) {
